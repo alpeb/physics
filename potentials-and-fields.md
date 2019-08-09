@@ -10,20 +10,16 @@
 
 ### Inhomogenous wave equations
 Lorentz gauge:
-$$
-\vec{\nabla} \cdot \vec{A} = -\mu_0 \epsilon_0 \frac{\partial V}{\partial t}
-$$
+![](https://latex.codecogs.com/gif.latex?\vec{\nabla}&space;\cdot&space;\vec{A}&space;=&space;-\mu_0&space;\epsilon_0&space;\frac{\partial&space;V}{\partial&space;t}" title="\vec{\nabla} \cdot \vec{A} = -\mu_0 \epsilon_0 \frac{\partial V}{\partial t}" />
+
 Inomogenous wave equations:
-$$
-\Box^2 V = -\frac{1}{\epsilon_0} \rho
-$$
-$$
-\Box^2 \vec{A} = -\mu_0 \vec{J}
-$$
+![](https://latex.codecogs.com/gif.latex?\Box^2&space;V&space;=&space;-\frac{1}{\epsilon_0}&space;\rho)
+
+![](https://latex.codecogs.com/gif.latex?\Box^2&space;\vec{A}&space;=&space;-\mu_0&space;\vec{J})
+
 D'Alambertian
-$$
-\Box^2 = \nabla^2 - \mu_0 \epsilon_0 \frac{\partial^2}{\partial t^2}
-$$
+
+![](https://latex.codecogs.com/gif.latex?\Box^2&space;=&space;\nabla^2&space;-&space;\mu_0&space;\epsilon_0&space;\frac{\partial^2}{\partial&space;t^2})
 
 ### Retarded potentials
 $$
