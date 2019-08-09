@@ -10,9 +10,11 @@
 
 ### Inhomogenous wave equations
 Lorentz gauge:
-![](https://latex.codecogs.com/gif.latex?\vec{\nabla}&space;\cdot&space;\vec{A}&space;=&space;-\mu_0&space;\epsilon_0&space;\frac{\partial&space;V}{\partial&space;t}" title="\vec{\nabla} \cdot \vec{A} = -\mu_0 \epsilon_0 \frac{\partial V}{\partial t}" />
+
+![](https://latex.codecogs.com/gif.latex?\vec{\nabla}&space;\cdot&space;\vec{A}&space;=&space;-\mu_0&space;\epsilon_0&space;\frac{\partial&space;V}{\partial&space;t})
 
 Inomogenous wave equations:
+
 ![](https://latex.codecogs.com/gif.latex?\Box^2&space;V&space;=&space;-\frac{1}{\epsilon_0}&space;\rho)
 
 ![](https://latex.codecogs.com/gif.latex?\Box^2&space;\vec{A}&space;=&space;-\mu_0&space;\vec{J})
@@ -22,18 +24,15 @@ D'Alambertian
 ![](https://latex.codecogs.com/gif.latex?\Box^2&space;=&space;\nabla^2&space;-&space;\mu_0&space;\epsilon_0&space;\frac{\partial^2}{\partial&space;t^2})
 
 ### Retarded potentials
-$$
-V(\vec{r}, t) = \frac{1}{4\pi\epsilon_0} \int \frac{\rho(\vec{r'}, t_r)}{r} d\tau'
-$$
-$$
-\vec{A}(\vec{r}, t) = \frac{\mu_0}{4\pi} \int \frac{\vec{J}(\vec{r'},t_r)}{r} d\tau'
-$$
-with $t_r = t - \frac{r}{c}$
+
+![](https://latex.codecogs.com/gif.latex?V(\vec{r},&space;t)&space;=&space;\frac{1}{4\pi\epsilon_0}&space;\int&space;\frac{\rho(\vec{r'},&space;t_r)}{r}&space;d\tau')
+
+![](https://latex.codecogs.com/gif.latex?\vec{A}(\vec{r},&space;t)&space;=&space;\frac{\mu_0}{4\pi}&space;\int&space;\frac{\vec{J}(\vec{r'},t_r)}{r}&space;d\tau')
+
+with ![](https://latex.codecogs.com/gif.latex?t_r&space;=&space;t&space;-&space;\frac{r}{c})
 
 ### Jefimenko's Equations
-$$
-\vec{E}(\vec{r}, t) = \frac{1}{4\pi\epsilon_0}\int[\frac{\rho(\vec{r'}, t_r)}{r^2}\vec{\hat{r}} + \frac{\dot{\rho}(\vec{r'}, t_r)}{cr}\vec{\hat{r}} - \frac{\vec{\dot{J}}(\vec{r'}, t_r)}{c^2r}]d\tau'
-$$
-$$
-\vec{B}(\vec{r}, t) = \frac{\mu_0}{4\pi} \int [\frac{\vec{J}(\vec{r'}, t_r)}{r^2} + \frac{\vec{\dot{J}}(\vec{r', t_r})}{cr}] \times \vec{\hat{r}} d\tau'
-$$
+
+![](https://latex.codecogs.com/gif.latex?\vec{E}(\vec{r},&space;t)&space;=&space;\frac{1}{4\pi\epsilon_0}\int[\frac{\rho(\vec{r'},&space;t_r)}{r^2}\vec{\hat{r}}&space;&plus;&space;\frac{\dot{\rho}(\vec{r'},&space;t_r)}{cr}\vec{\hat{r}}&space;-&space;\frac{\vec{\dot{J}}(\vec{r'},&space;t_r)}{c^2r}]d\tau')
+
+![](https://latex.codecogs.com/gif.latex?\vec{B}(\vec{r},&space;t)&space;=&space;\frac{\mu_0}{4\pi}&space;\int&space;[\frac{\vec{J}(\vec{r'},&space;t_r)}{r^2}&space;&plus;&space;\frac{\vec{\dot{J}}(\vec{r',&space;t_r})}{cr}]&space;\times&space;\vec{\hat{r}}&space;d\tau')
