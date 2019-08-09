@@ -10,7 +10,7 @@ Where ![](https://latex.codecogs.com/gif.latex?\vec{f}) is the force per unit ch
 
 ![](https://latex.codecogs.com/gif.latex?\varepsilon&space;=&space;\oint&space;\vec{f}_{mag}&space;\cdot&space;d\vec{l})
 
-### Flux of $\vec{B}$ through a loop
+### Flux of ![](https://latex.codecogs.com/gif.latex?\vec{B}) through a loop
 
 ![](https://latex.codecogs.com/gif.latex?\phi&space;=&space;\int&space;\vec{B}&space;\cdot&space;d\vec{a})
 
